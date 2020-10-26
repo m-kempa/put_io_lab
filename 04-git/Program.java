@@ -13,7 +13,7 @@ public class Car {
         this.vehicleNum = vehicleNum;
     }
 
-
+    //Wybranie modelu
     public void setModel(String model) {
         this.model = model;
     }
@@ -37,7 +37,7 @@ public class Car {
     public int getVehicleNum() {
         return this.vehicleNum;
     }
-
+    
     public void printInfo() {
 
         System.out.println("Model " + getModel());
