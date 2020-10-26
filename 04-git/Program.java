@@ -5,6 +5,7 @@ public class Car {
     public String engineType;
     public int vehicleNum;
     public String Comment;
+    public Sting Color;
 
 
     public Car(String model,String engineType,int vehicleNum) {
