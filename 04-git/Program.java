@@ -4,6 +4,7 @@ public class Car {
     public String model;
     public String engineType;
     public int vehicleNum;
+    public String Comment;
 
 
     public Car(String model,String engineType,int vehicleNum) {
