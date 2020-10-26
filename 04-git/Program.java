@@ -45,7 +45,11 @@ public class Car {
     public int getVehicleNum() {
         return this.vehicleNum;
     }
-    //Wydrukowanie informacji
+
+
+    //Wydrukowanie informacjii
+
+
     public void printInfo() {
 
         System.out.println("Model " + getModel());
