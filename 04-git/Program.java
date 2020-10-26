@@ -1,3 +1,4 @@
+//Program testowy
 public class Car {
 
 
@@ -9,7 +10,7 @@ public class Car {
 
     public Sting Color;
 
-    
+
 
 
     public Car(String model,String engineType,int vehicleNum) {
@@ -45,7 +46,11 @@ public class Car {
     public int getVehicleNum() {
         return this.vehicleNum;
     }
-    //Wydrukowanie informacji
+
+
+    //Wydrukowanie informacjii
+
+
     public void printInfo() {
 
         System.out.println("Model " + getModel());
