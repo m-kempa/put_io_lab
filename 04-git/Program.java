@@ -1,4 +1,5 @@
 //Program testowy
+//Dodaje aby miec w schowku
 public class Car {
 
 
