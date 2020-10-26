@@ -18,7 +18,10 @@ public class Car {
         this.vehicleNum = vehicleNum;
     }
 
-    //Wybranie modelu
+
+    //Wybranie modeluuu
+
+
     public void setModel(String model) {
         this.model = model;
     }
