@@ -37,7 +37,7 @@ public class Car {
     public int getVehicleNum() {
         return this.vehicleNum;
     }
-    
+    //Wydrukowanie informacji
     public void printInfo() {
 
         System.out.println("Model " + getModel());
