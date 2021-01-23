@@ -1,0 +1,17 @@
+Zadanie 1.1 Avarage: 2672 min: 1588 max: 3982 througput: 1,2/sec
+Zadanie 1.2 Avarage: 1098 min: 830  max: 1601 througput: 1,6/sec
+
+Zastosowane zmiany:
+w klasie CustomerCardsController funkcja avarageSpendings() by³a wywo³ywana dwa razy w obrêbie pêtli for.
+W zamian za to zapisa³em j¹ do zmiennej co zmienjszy³o liczbê wywo³añ funkcji do jednej. W rezultacie w podczas
+ka¿dej interacji pêtli zosta³y zminimalizowane nadmiarowe wywow³ania funcji co znacznie zmniejszy³o czas oczekiwania na odpowiedŸ.
+
+
+Zadanie 2:
+10 drukarek: œrednia przepustowoœæ 2.0/sec
+25 drukarek: œrednia przepustowoœæ 4.9/sec
+30 drukarek: œrednia przepustowoœæ 5.8/sec
+
+Rekomendowana przezemnie liczba to 30 drukarek œrednia przepustowoœæ wynosi 5.8 na sekundê.
+Jest ona nieco wy¿sza ni¿ zak³adane 5,5 kart na sekundê. Jednak uwa¿am, ¿e taki zapas a nawet nieco wy¿szy powinien byæ zaplanowany przy okreœleniu liczby drukarek.
+
